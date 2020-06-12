@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="zfw\Change.xaml.cs">
+      <DependentUpon>Change.xaml</DependentUpon>
+    </Compile>
     <Compile Include="zfw\Find.xaml.cs">
       <DependentUpon>Find.xaml</DependentUpon>
     </Compile>
@@ -68,6 +71,10 @@
       <DependentUpon>Send.xaml</DependentUpon>
     </Compile>
     <Compile Include="SQLCon.cs" />
+    <Page Include="zfw\Change.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="zfw\Find.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
