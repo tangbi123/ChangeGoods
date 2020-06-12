@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace 交易平台
+namespace 交易平台.zfw
 {
     /// <summary>
     /// Find.xaml 的交互逻辑
