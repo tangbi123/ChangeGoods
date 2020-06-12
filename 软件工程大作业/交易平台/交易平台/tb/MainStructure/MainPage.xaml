@@ -16,7 +16,7 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="#FFFFD415" Grid.Row="0" Height="80" Grid.ColumnSpan="2"/>
+        <Rectangle Fill="#FFFFD415" Grid.Row="0" Height="80" Grid.ColumnSpan="2" />
         <Image  Source="交易.png" Grid.Row="0" Grid.Column="0"  Margin="0"   Stretch="fill" Height="80" />
 
         <!--<ToolBarTray Grid.Column="1" Grid.Row="0" Background="LightBlue" Margin="527,0,0,0">
