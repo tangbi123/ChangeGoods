@@ -16,26 +16,84 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Rectangle Fill="#FFFFD415" Grid.Row="0" Height="80" Grid.ColumnSpan="2" />
-        <Image  Source="交易.png" Grid.Row="0" Grid.Column="0"  Margin="0"   Stretch="fill" Height="80" />
+        
+        <Rectangle Fill="#4CFFD415" Grid.Row="0" Height="100" Grid.ColumnSpan="2" />
+        <Image  Source="交易.png" Grid.Row="0" Grid.Column="0"  Margin="0"   Stretch="fill" Height="100" />
 
-        <!--<ToolBarTray Grid.Column="1" Grid.Row="0" Background="LightBlue" Margin="527,0,0,0">
-            <ToolBar Padding="10">
-                <Button ToolTip="退出" Margin="10">
-                    -->
-        <!--<Image Source=""/>-->
-        <!--
-                </Button>
-            </ToolBar>
-        </ToolBarTray>-->
+        <StackPanel Grid.Row="0" Grid.Column="1" Width="100" RenderTransformOrigin="0.94,0.525" Margin="585,0,0,38">
+            <Button Content="退出"  Background="#FF3FD8AF" Width="50" Margin="25,0" />
+
+        </StackPanel>
+
 
         <Rectangle Grid.ColumnSpan="2" Grid.Row="1" Fill="white" RadiusX="14"
                 RadiusY="14" Stroke="Blue" StrokeDashArray="3" />
         <Rectangle Grid.Column="0" Grid.Row="1" Margin="7" Fill="#FFF3F8FD" RadiusX="10"
                 RadiusY="10" Stroke="Blue" StrokeDashArray="3" />
 
-        <Frame Grid.Column="0" Grid.Row="1" Name="frame1" Source="MenuPage.xaml"
-                Margin="15" />
-        <Frame Grid.Column="1" Grid.Row="1" Name="frame2" />
+        <!--<Frame Grid.Column="0" Grid.Row="1"  Source="MenuPage.xaml"
+                Margin="15" />-->
+        <StackPanel Grid.Column="0" Grid.Row="1" 
+                      Width="200"
+                    Background="#FFF8FBE5" Button.Click="Button_CLick">
+            <StackPanel.Resources>
+                <Style TargetType="ListBox">
+                    <Setter Property="Background" Value="White"/>
+                </Style>
+
+                <Style TargetType="ListBoxItem">
+
+                    <!--<Setter Property="Margin" Value="0" />
+                    <Setter Property="Padding" Value="0" />-->
+                    <Setter Property="FontFamily" Value="Verdana" />
+                    <Setter Property="FontWeight" Value="Normal" />
+                    <Setter Property="FontSize" Value="10" />
+                </Style>
+
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#1902F4FF"/>
+                    <Setter Property="FontSize" Value="11pt" />
+                    <Setter Property="Width" Value="160"/>
+                </Style>
+
+                <Style TargetType="Expander">
+                    <Setter Property="Margin" Value="3,0,3,0" />
+                    <Setter Property="HorizontalAlignment" Value="Stretch" />
+                    <Setter Property="Background" Value="#FFF3F8FD" />
+                    <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+                </Style>
+                <Style TargetType="TextBlock">
+                    <Setter Property="Margin" Value="3 0 3 0" />
+                </Style>
+
+            </StackPanel.Resources>
+            <Expander Header="通讯">
+                <ListBox>
+                    <Button Content="1">
+
+                    </Button>
+                </ListBox>
+            </Expander>
+
+            <Expander Header="交易">
+                <ListBox>
+                    <Button Content="1">
+
+                    </Button>
+                </ListBox>
+            </Expander >
+
+            <Expander Header = "用户" >
+                <ListBox>
+                    <Button Content="1">
+
+                    </Button>
+                    <Button Content="2">
+
+                    </Button>
+                </ListBox>
+            </Expander>
+        </StackPanel>
+        <Frame Name="frame1" Grid.Column="1" Grid.Row="1"  Margin="10,0,0,0" />
     </Grid>
 </Page>

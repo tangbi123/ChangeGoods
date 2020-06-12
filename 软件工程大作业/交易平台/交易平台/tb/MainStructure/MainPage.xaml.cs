@@ -24,5 +24,15 @@ namespace 交易平台.tb.MainStructure
         {
             InitializeComponent();
         }
+
+        private void Button_CLick(object sender, RoutedEventArgs e)
+        {
+            Button btn = e.Source as Button;
+            if (btn.Tag != null)
+            {
+                //frame1.Source = new Uri("/Examples/" + btn.Tag + ".xaml", UriKind.Relative);
+                MessageBox.Show(btn.Content.ToString());
+            }
+        }
     }
 }

@@ -58,9 +58,6 @@
     <Compile Include="tb\MainStructure\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="tb\MainStructure\MainStruct.xaml.cs">
-      <DependentUpon>MainStruct.xaml</DependentUpon>
-    </Compile>
     <Compile Include="tb\MainStructure\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
@@ -78,10 +75,6 @@
     </Compile>
     <Compile Include="SQLCon.cs" />
     <Page Include="tb\MainStructure\MainPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="tb\MainStructure\MainStruct.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

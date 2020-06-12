@@ -61,16 +61,12 @@ E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Find.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Logon.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Main.g.cs
-E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Page1.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Send.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Find.baml
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Logon.baml
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Main.baml
-E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Page1.baml
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Send.baml
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.g.cs
-E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainStruct.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.baml
-E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainStruct.baml
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.baml

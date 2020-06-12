@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using 交易平台.tb;
 
 namespace 交易平台.tb.MainStructure
 {
@@ -23,6 +24,11 @@ namespace 交易平台.tb.MainStructure
         public MenuPage()
         {
             InitializeComponent();
+        }
+
+        private void Button_CLick(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

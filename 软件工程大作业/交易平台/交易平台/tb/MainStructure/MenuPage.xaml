@@ -7,8 +7,66 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MenuPage">
+    <Page.Resources>
+        <Style TargetType="ListBox">
+            <Setter Property="Background" Value="White"/>
+        </Style>
 
-    <Grid>
+        <Style TargetType="ListBoxItem">
+            
+            <Setter Property="Margin" Value="0" />
+            <Setter Property="Padding" Value="0" />
+            <Setter Property="FontFamily" Value="Verdana" />
+            <Setter Property="FontWeight" Value="Normal" />
+            <Setter Property="FontSize" Value="10" />
+        </Style>
         
-    </Grid>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#1902F4FF"/>
+            <Setter Property="FontSize" Value="11pt" />
+            <Setter Property="Width" Value="160"/>
+        </Style>
+        
+        <Style TargetType="Expander">
+            <Setter Property="Margin" Value="3,0,3,0" />
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="Background" Value="#FFF3F8FD" />
+            <Setter Property="FocusVisualStyle" Value="{x:Null}" />
+        </Style>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="3 0 3 0" />
+        </Style>
+        
+    </Page.Resources>
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Left"  Width="800"
+                    Background="#FFF8FBE5" Button.Click="Button_CLick">
+            <Expander Header="通讯">
+                <ListBox>
+                    <Button Content="1">
+
+                    </Button>
+                </ListBox>
+            </Expander>
+
+            <Expander Header="交易">
+                <ListBox>
+                    <Button Content="1">
+
+                    </Button>
+                </ListBox>
+            </Expander >
+
+            <Expander Header = "用户" >
+                <ListBox>
+                    <Button Content="1">
+
+                    </Button>
+                    <Button Content="2">
+
+                    </Button>
+                </ListBox>
+            </Expander>
+        </StackPanel>
+    </DockPanel>
 </Page>
