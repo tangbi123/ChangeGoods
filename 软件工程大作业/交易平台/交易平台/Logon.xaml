@@ -32,7 +32,7 @@
                 <Label x:Name="label5" Content="密码最大长度为20！" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.512,0.383" Background="{x:Null}" Foreground="Red" Canvas.Left="656" Canvas.Top="246" Visibility="Hidden"/>
                 <Label x:Name="label6" Content="邮箱已注册！" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFB0404" Canvas.Left="656" Canvas.Top="180" Visibility="Hidden"/>
                 <Label x:Name="label7" Content="请输入密码！" HorizontalAlignment="Left" VerticalAlignment="Top" Foreground="#FFFF0303" Canvas.Left="656" Canvas.Top="246" Visibility="Hidden"/>
-                <Image x:Name="image" Height="226" Canvas.Left="29" Canvas.Top="140" Width="323" Source="img/其它.png"/>
+                <Image x:Name="image" Height="226" Canvas.Left="29" Canvas.Top="140" Width="323" Source="其它.png"/>
                 <Label x:Name="label9" Content="验证码错误！" Canvas.Left="656" Canvas.Top="407" Background="{x:Null}" Foreground="#FFF90404" Visibility="Hidden"/>
             </Canvas>
         </Viewbox>

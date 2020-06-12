@@ -124,6 +124,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="img\shop.jpg" />
+    <Resource Include="img\其它.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="shop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="其它.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

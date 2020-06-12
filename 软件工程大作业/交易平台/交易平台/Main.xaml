@@ -10,7 +10,7 @@
         <Viewbox Stretch="Fill">
             <Canvas Width="1000" Height="650">
                 <Canvas.Background>
-                    <ImageBrush ImageSource="img/购物.jpg"/>
+                    <ImageBrush ImageSource="shop.jpg"/>
                 </Canvas.Background>
                 <Label x:Name="label" Content="邮箱：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="17" Canvas.Top="151" FontSize="20"/>
                 <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Canvas.Left="104" Canvas.Top="156" FontSize="20"/>
