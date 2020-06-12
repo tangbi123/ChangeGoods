@@ -35,6 +35,7 @@ namespace 交易平台
             }
             catch (Exception e)
             {
+                MessageBox.Show(e.Message);
                 return -1;
             }
             finally
@@ -44,17 +45,17 @@ namespace 交易平台
 
         }
 
-        public string Login(string emial)
+        public string Login(string email)
         {
             string password = "";
             try
             {
                 conn.Open();
                 SqlCommand comd = conn.CreateCommand();
-                comd.CommandText = string.Format("(select * from 用户表 where 邮箱={0})", emial);
+                comd.CommandText = string.Format("(select * from 用户表 where 邮箱='{0}')", email);
                 SqlDataReader reader = comd.ExecuteReader();
                 if (!reader.Read())
-                {
+                { 
                     return "";
                 }
                 password = reader.GetString(reader.GetOrdinal("密码"));

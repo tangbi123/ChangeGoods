@@ -15,7 +15,7 @@
                         <GradientStop Color="#FF9EF7D7" Offset="0.983"/>
                     </LinearGradientBrush>
                 </Canvas.Background>
-                <Label x:Name="label" Content="手机号：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="355" Canvas.Top="173" FontSize="20"/>
+                <Label x:Name="label" Content="邮箱：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="375" Canvas.Top="173" FontSize="20"/>
                 <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Canvas.Left="458" Canvas.Top="173" FontSize="20"/>
                 <Label x:Name="label1" Content="验证码：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="355" Canvas.Top="239" FontSize="20"/>
                 <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Canvas.Left="458" Canvas.Top="239" FontSize="20"/>
