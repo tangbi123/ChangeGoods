@@ -26,63 +26,7 @@ namespace 交易平台
         {
             InitializeComponent();
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            //this.Content = new MainPage();
-        }
-
-        /// <summary>
-        /// 左边 菜单  的导航 btn
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void Button_CLick(object sender, RoutedEventArgs e)
-        {
-            Button btn = e.Source as Button;
-            MessageBox.Show(btn.Content.ToString());
-
-            if (btn.Tag == null) return;
-            Uri source = new Uri(btn.Tag.ToString(), UriKind.Relative);
-
-            //调试 是否有这个source
-            Object obj = null;
-            try
-            {
-                obj = Application.LoadComponent(source);
-            }
-            catch
-            {
-
-                MessageBox.Show("未找到" + source.OriginalString);
-                return;
-            }
-
-            Page p = obj as Page;
-            if (p != null)
-            {
-                frame1.NavigationService.RemoveBackEntry();
-                frame1.Source = source;
-                return;
-            }
-            else MessageBox.Show("无法将对象转化为Page类型");
-
-            Window w = obj as Window;
-            if (w != null)
-            {
-                w.Owner = this;
-                w.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterOwner;
-                w.ShowDialog();
-            }
-            else MessageBox.Show("无法将对象转化为Window类型");
-
-        }
-        /// <summary>
-        /// 退出  btn
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
-        private void outBtn(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("退出程序");
+            this.Content = new Main();
         }
     }
 }
-
