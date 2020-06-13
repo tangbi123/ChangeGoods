@@ -18,7 +18,7 @@ namespace 交易平台.tb.MainStructure
     /// <summary>
     /// MainPage.xaml 的交互逻辑
     /// </summary>
-    public partial class MainPage : Window
+    public partial class MainPage : Page
     {
         public MainPage()
         {
@@ -28,41 +28,11 @@ namespace 交易平台.tb.MainStructure
         private void Button_CLick(object sender, RoutedEventArgs e)
         {
             Button btn = e.Source as Button;
-            MessageBox.Show(btn.Content.ToString());
-
-            Uri source = new Uri(btn.Tag.ToString(), UriKind.Relative);
-
-            //调试 是否有这个source
-            Object obj = null;
-            try
+            if (btn.Tag != null)
             {
-                obj = Application.LoadComponent(source);
+                //frame1.Source = new Uri("/Examples/" + btn.Tag + ".xaml", UriKind.Relative);
+                MessageBox.Show(btn.Content.ToString());
             }
-            catch {
-
-                MessageBox.Show("未找到" + source.OriginalString);
-                return;
-            }
-
-            Page p = obj as Page;
-            if(p!=null)
-            {
-                frame1.NavigationService.RemoveBackEntry();
-                frame1.Source = source;
-                return;
-            }
-
-            Window w = obj as Window;
-            if (w != null)
-            {
-                w.Owner = this;
-                w.WindowStartupLocation = System.Windows.WindowStartupLocation.CenterOwner;
-                w.ShowDialog();
-            }
-            else MessageBox.Show("无法将对象转化为Window类型");
-
         }
-
-       
     }
 }
