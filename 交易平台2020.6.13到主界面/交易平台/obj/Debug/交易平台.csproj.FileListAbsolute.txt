@@ -1,0 +1,100 @@
+E:\编程\交易平台\交易平台\bin\Debug\交易平台.exe.config
+E:\编程\交易平台\交易平台\bin\Debug\交易平台.exe
+E:\编程\交易平台\交易平台\bin\Debug\交易平台.pdb
+E:\编程\交易平台\交易平台\obj\Debug\交易平台.csprojResolveAssemblyReference.cache
+E:\编程\交易平台\交易平台\obj\Debug\MainWindow.g.cs
+E:\编程\交易平台\交易平台\obj\Debug\App.g.cs
+E:\编程\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.cache
+E:\编程\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.lref
+E:\编程\交易平台\交易平台\obj\Debug\MainWindow.baml
+E:\编程\交易平台\交易平台\obj\Debug\交易平台.g.resources
+E:\编程\交易平台\交易平台\obj\Debug\交易平台.Properties.Resources.resources
+E:\编程\交易平台\交易平台\obj\Debug\交易平台.csproj.GenerateResource.Cache
+E:\编程\交易平台\交易平台\obj\Debug\交易平台.exe
+E:\编程\交易平台\交易平台\obj\Debug\交易平台.pdb
+E:\编程\交易平台\交易平台\obj\Debug\Logon.g.cs
+E:\编程\交易平台\交易平台\obj\Debug\Logon.baml
+E:\编程\交易平台\交易平台\obj\Debug\Main.g.cs
+E:\编程\交易平台\交易平台\obj\Debug\Main.baml
+E:\编程\交易平台\交易平台\obj\Debug\Find.g.cs
+E:\编程\交易平台\交易平台\obj\Debug\Find.baml
+E:\编程\交易平台\交易平台\obj\Debug\Send.g.cs
+E:\编程\交易平台\交易平台\obj\Debug\Send.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\bin\Debug\交易平台.exe.config
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\bin\Debug\交易平台.exe
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\bin\Debug\交易平台.pdb
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.csprojAssemblyReference.cache
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Find.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Logon.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Main.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\MainWindow.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Send.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\App.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.cache
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.lref
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Find.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Logon.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Main.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\MainWindow.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\Send.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.g.resources
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.Properties.Resources.resources
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.csproj.GenerateResource.cache
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.exe
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.pdb
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\bin\Debug\交易平台.exe.config
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.exe
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.pdb
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\bin\Debug\交易平台.exe
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\bin\Debug\交易平台.pdb
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.csprojResolveAssemblyReference.cache
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\MainWindow.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\App.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.cache
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.lref
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\MainWindow.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.g.resources
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.Properties.Resources.resources
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\交易平台.csproj.GenerateResource.Cache
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Find.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Logon.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Main.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Send.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Find.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Logon.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Main.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Send.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Change.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Change.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台.csprojAssemblyReference.cache
+E:\Githb repository\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Change.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Find.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Logon.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Main.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\MainWindow.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Send.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\App.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.cache
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台_MarkupCompile.lref
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台.exe
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台.pdb
+E:\Githb repository\交易平台\交易平台\bin\Debug\交易平台.exe.config
+E:\Githb repository\交易平台\交易平台\bin\Debug\交易平台.exe
+E:\Githb repository\交易平台\交易平台\bin\Debug\交易平台.pdb
+E:\Githb repository\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Change.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Find.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Logon.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Main.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\MainWindow.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\zfw\Send.baml
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台.g.resources
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台.Properties.Resources.resources
+E:\Githb repository\交易平台\交易平台\obj\Debug\交易平台.csproj.GenerateResource.cache
+E:\Githb repository\交易平台\交易平台\obj\Debug\tb\User\User.g.cs
+E:\Githb repository\交易平台\交易平台\obj\Debug\tb\User\User.baml
