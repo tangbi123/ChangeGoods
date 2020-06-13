@@ -16,12 +16,19 @@ namespace 交易平台
         public SQLCon()
         {
             s = "Data Source = 127.0.0.1; " +
-                "Persist Security Info=True;" +
+                "Persist Security Info=True;" +  //True：Windows身份验证  False：账号、密码
                 "Initial Catalog=交易平台;" +
                 "Integrated Security=false;" +
                 "User ID=sa;" +
-                "Password=123456;";
-            conn = new SqlConnection(s);
+                "Password=;"; //这个 我没设密码
+            try
+            {
+                conn = new SqlConnection(s);
+            }
+            catch {
+                MessageBox.Show("数据库连接失败");
+               
+            }
         }
 
         public int Logon(string sql)
