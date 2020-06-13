@@ -64,9 +64,6 @@
     <Compile Include="zfw\Browse.xaml.cs">
       <DependentUpon>Browse.xaml</DependentUpon>
     </Compile>
-    <Compile Include="zfw\Change.xaml.cs">
-      <DependentUpon>Change.xaml</DependentUpon>
-    </Compile>
     <Compile Include="zfw\Find.xaml.cs">
       <DependentUpon>Find.xaml</DependentUpon>
     </Compile>
@@ -89,10 +86,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="zfw\Browse.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="zfw\Change.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
