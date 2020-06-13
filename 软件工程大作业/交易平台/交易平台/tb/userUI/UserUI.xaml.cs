@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace 交易平台.zfw
+namespace 交易平台.tb.userUI
 {
     /// <summary>
-    /// Find.xaml 的交互逻辑
+    /// UserUI.xaml 的交互逻辑
     /// </summary>
-    public partial class Find : UserControl
+    public partial class UserUI : Page
     {
-        public Find()
+        public UserUI()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            this.Content = new Main();
         }
     }
 }

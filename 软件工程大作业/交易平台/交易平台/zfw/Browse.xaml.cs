@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace 交易平台.zfw
 {
     /// <summary>
-    /// Find.xaml 的交互逻辑
+    /// Browse.xaml 的交互逻辑
     /// </summary>
-    public partial class Find : UserControl
+    public partial class Browse : Page
     {
-        public Find()
+        public Browse()
         {
             InitializeComponent();
-        }
-
-        private void button2_Click(object sender, RoutedEventArgs e)
-        {
-            this.Content = new Main();
         }
     }
 }

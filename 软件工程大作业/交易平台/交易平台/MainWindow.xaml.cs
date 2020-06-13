@@ -26,7 +26,7 @@ namespace 交易平台
         {
             InitializeComponent();
             WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            this.Content = new Main();
+            this.Content = new Browse();
         }
     }
 }

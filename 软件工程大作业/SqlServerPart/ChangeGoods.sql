@@ -23,7 +23,7 @@
 --表内有些定义需要补充，用【】标识出
 
 CREATE TABLE 会员表(
-    用户号 CHAR(6) PRIMARY KEY,--用数字填充
+    用户号 VARCHAR(10) PRIMARY KEY,--用数字填充
     手机号 CHAR(11) check(patindex('%[A-Za-z]%',手机号)=0),--只支持国内，默认86,只检查了不允许存在字母
     邮箱 VARCHAR(30),--example@example.example,没检查格式问题
     密码 varchar(20) NOT NULL check(len(密码)>=6),--最少6位
