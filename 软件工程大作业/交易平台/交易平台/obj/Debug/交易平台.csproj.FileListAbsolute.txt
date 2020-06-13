@@ -66,3 +66,7 @@ E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\
 E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Send.baml
 E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Change.g.cs
 E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\zfw\Change.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.g.cs
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.baml
+E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.baml
