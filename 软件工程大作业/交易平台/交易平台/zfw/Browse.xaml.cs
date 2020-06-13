@@ -12,21 +12,17 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using 交易平台.tb.MainStructure;
-using 交易平台.zfw;
 
-namespace 交易平台
+namespace 交易平台.zfw
 {
     /// <summary>
-    /// MainWindow.xaml 的交互逻辑
+    /// Browse.xaml 的交互逻辑
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Browse : Page
     {
-        public MainWindow()
+        public Browse()
         {
             InitializeComponent();
-            WindowStartupLocation = WindowStartupLocation.CenterScreen;
-            this.Content = new Browse();
         }
     }
 }
