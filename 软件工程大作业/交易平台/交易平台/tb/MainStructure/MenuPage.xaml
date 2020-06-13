@@ -7,7 +7,7 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="MenuPage">
-    <!--<Page.Resources>
+    <Page.Resources>
         <Style TargetType="ListBox">
             <Setter Property="Background" Value="White"/>
         </Style>
@@ -68,20 +68,5 @@
                 </ListBox>
             </Expander>
         </StackPanel>
-    </DockPanel>-->
-    <Style TargetType="{x:Type ToggleButton}">
-        <Setter Property="FocusVisualStyle" Value="{x:Null}"/>
-
-        <Setter Property="Height" Value="35" />
-        <Setter Property="Background" Value="SlateGray" />
-        <Setter Property="Foreground" Value="Gainsboro"/>
-        <Setter Property="FontSize" Value="20" />
-        <Setter Property="FontFamily" Value="宋体" />
-        <Setter Property="FontWeight" Value="Bold" />
-        <Setter Property="BorderThickness" Value="0"/>
-        <Setter Property="HorizontalContentAlignment" Value="Center"/>
-        <Setter Property="VerticalContentAlignment" Value="Center"/>
-        <Setter Property="Width" Value="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType=Expander}, Path=ActualWidth}"></Setter>
-        <Setter Property="Padding" Value="10 5"/>
-    </Style>
+    </DockPanel>
 </Page>

@@ -25,7 +25,7 @@ namespace 交易平台.zfw
     {
         string code = "";
         string a = "abcdefghijklmnopqrstuvwxyz0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        int time;
+        int time; 
         DispatcherTimer timer = null;
 
         public Logon()
@@ -46,10 +46,14 @@ namespace 交易平台.zfw
             label6.Visibility = Visibility.Hidden;
             label7.Visibility = Visibility.Hidden;
             label9.Visibility = Visibility.Hidden;
+            label12.Visibility = Visibility.Hidden;
+            label13.Visibility = Visibility.Hidden;
             string email = textBox.Text;
             string pass1 = passwordBox.Password;
             string pass2 = passwordBox1.Password;
             string pass3 = textBox1.Text;
+            string name = textBox2.Text;
+            string sex = "";
             if(email == "")
             {
                 label3.Visibility = Visibility.Visible;
@@ -70,14 +74,30 @@ namespace 交易平台.zfw
                 label4.Visibility = Visibility.Visible;
                 return;
             }
-            if(pass3 != code)
+            if (radioButton.IsChecked == false && radioButton1.IsChecked == false)
             {
-                label9.Visibility = Visibility.Visible;
+                label12.Visibility = Visibility.Visible;
                 return;
             }
+            else
+            {
+                if (radioButton.IsChecked == true)
+                    sex = "male";
+                else
+                    sex = "female";
+            }
+            if (name.Equals("") || name.Length > 10)
+            {
+                label13.Visibility = Visibility.Visible;
+                return;
+            }
+            //if (pass3.Equals("") || pass3 != code)
+            //{
+            //    label9.Visibility = Visibility.Visible;
+            //    return;
+            //}
             SQLCon sqlcon = new SQLCon();
-            string sql = string.Format("insert into 用户表 values('{0}',{1})", email, pass1);
-            int i = sqlcon.Logon(sql);
+            int i = sqlcon.Logon(email, pass1, sex, name);
             if(i != 1)
             {
                 label6.Visibility = Visibility.Visible;
@@ -125,7 +145,8 @@ namespace 交易平台.zfw
                 //倒计时30秒
                 time = 30;
                 //激活timer事件
-                timer.Tick += Timer_Tick;
+                timer.Tick += Tick;
+                timer.Interval = TimeSpan.FromSeconds(1);
                 timer.Start();
                 MessageBox.Show("发送成功");
             }
@@ -137,14 +158,14 @@ namespace 交易平台.zfw
             }
         }
 
-        private void Timer_Tick(object sender, EventArgs e)
+        private void Tick(object sender, EventArgs e)
         {
-            button2.Content = time--;
-            if(time < 0)
+            button2.Content = time--+"s";
+            if (time < 0)
             {
+                timer.Stop();
                 button2.Content = "获取验证码";
                 button2.IsEnabled = true;
-                timer.Stop();
             }
         }
     }
