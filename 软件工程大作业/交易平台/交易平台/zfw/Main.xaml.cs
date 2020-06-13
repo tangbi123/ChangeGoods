@@ -12,7 +12,6 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using 交易平台.tb.MainStructure;
 
 namespace 交易平台.zfw
 {
@@ -53,10 +52,7 @@ namespace 交易平台.zfw
            
             if(pass == password)
             {
-                this.Content = new Frame()
-                {
-                    Content = new MainPage()
-                };
+                this.Content = new Send();
             }
             else
             {

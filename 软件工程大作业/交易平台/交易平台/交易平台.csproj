@@ -61,8 +61,8 @@
     <Compile Include="tb\MainStructure\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="zfw\Change.xaml.cs">
-      <DependentUpon>Change.xaml</DependentUpon>
+    <Compile Include="tb\userUI\UserUI.xaml.cs">
+      <DependentUpon>UserUI.xaml</DependentUpon>
     </Compile>
     <Compile Include="zfw\Find.xaml.cs">
       <DependentUpon>Find.xaml</DependentUpon>
@@ -78,14 +78,14 @@
     </Compile>
     <Compile Include="SQLCon.cs" />
     <Page Include="tb\MainStructure\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="tb\MainStructure\MenuPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="zfw\Change.xaml">
+    <Page Include="tb\userUI\UserUI.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -150,8 +150,10 @@
     <Resource Include="img\其它.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="tb\MainStructure\shop.jpg" />
     <Resource Include="tb\MainStructure\交易.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="tb\MainStructure\shop.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

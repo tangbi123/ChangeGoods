@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\
 交易平台
 none
 false
 DEBUG;TRACE
-E:\GitHub\ChangeGoods\软件工程大作业\交易平台\交易平台\App.xaml
-8-1425659267
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\App.xaml
+8-616725211
 
-17-1555359017
+141947943520
 13738642453
-tb\MainStructure\MainPage.xaml;tb\MainStructure\MenuPage.xaml;zfw\Change.xaml;zfw\Find.xaml;zfw\Logon.xaml;zfw\Main.xaml;MainWindow.xaml;zfw\Send.xaml;
+tb\MainStructure\MainPage.xaml;tb\MainStructure\MenuPage.xaml;tb\userUI\UserUI.xaml;zfw\Find.xaml;zfw\Logon.xaml;zfw\Main.xaml;MainWindow.xaml;zfw\Send.xaml;
 
-False
+True
 
