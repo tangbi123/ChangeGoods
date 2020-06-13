@@ -15,16 +15,13 @@
                         <GradientStop Color="#FF9EF7D7" Offset="0.983"/>
                     </LinearGradientBrush>
                 </Canvas.Background>
-                <Label x:Name="label" Content="邮箱：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="336" Canvas.Top="156" FontSize="20"/>
-                <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="256" Canvas.Left="419" Canvas.Top="156" FontSize="20" Text=""/>
-                <Label x:Name="label1" Content="验证码：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="316" Canvas.Top="239" FontSize="20"/>
-                <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Canvas.Left="419" Canvas.Top="239" FontSize="20" Text=""/>
-                <Button x:Name="button" Content="发送验证码" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Canvas.Left="639" Canvas.Top="239" FontSize="20" Height="35" Background="{x:Null}" BorderBrush="#FFB3CD7C" Click="button_Click"/>
-                <Button x:Name="button1" Content="找回密码" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Canvas.Left="570" Canvas.Top="338" FontSize="20" Height="46" Background="{x:Null}" BorderBrush="#FFB3CD7C" Click="button1_Click"/>
-                <Button x:Name="button2" Content="返回" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Click="button2_Click" Canvas.Left="326" Canvas.Top="338" FontSize="20" Height="46" Background="{x:Null}" BorderBrush="#FFB3CD7C"/>
-                <Label x:Name="label2" Content="请输入正确邮箱！" Canvas.Left="419" Canvas.Top="196" Background="{x:Null}" Foreground="#FFFF0303" Visibility="Hidden"/>
-                <Label x:Name="label3" Content="该邮箱未注册！" Canvas.Left="419" Canvas.Top="196" Foreground="#FFFF0707" Visibility="Hidden"/>
-                <Label x:Name="label4" Content="验证码错误！" Canvas.Left="419" Canvas.Top="279" Foreground="#FFFB0404" Visibility="Hidden"/>
+                <Label x:Name="label" Content="邮箱：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="375" Canvas.Top="173" FontSize="20"/>
+                <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Canvas.Left="458" Canvas.Top="173" FontSize="20"/>
+                <Label x:Name="label1" Content="验证码：" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="355" Canvas.Top="239" FontSize="20"/>
+                <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="35" TextWrapping="Wrap" VerticalAlignment="Top" Width="184" Canvas.Left="458" Canvas.Top="239" FontSize="20"/>
+                <Button x:Name="button" Content="发送验证码" HorizontalAlignment="Left" VerticalAlignment="Top" Width="108" Canvas.Left="678" Canvas.Top="239" FontSize="20" Height="35" Background="{x:Null}" BorderBrush="#FFB3CD7C"/>
+                <Button x:Name="button1" Content="找回密码" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Canvas.Left="560" Canvas.Top="338" FontSize="20" Height="46" Background="{x:Null}" BorderBrush="#FFB3CD7C"/>
+                <Button x:Name="button2" Content="返回" HorizontalAlignment="Left" VerticalAlignment="Top" Width="105" Click="button2_Click" Canvas.Left="365" Canvas.Top="338" FontSize="20" Height="46" Background="{x:Null}" BorderBrush="#FFB3CD7C"/>
             </Canvas>
         </Viewbox>
     </Grid>
