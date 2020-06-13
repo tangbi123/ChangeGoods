@@ -37,6 +37,7 @@ namespace 交易平台
         private void Button_CLick(object sender, RoutedEventArgs e)
         {
             Button btn = e.Source as Button;
+            if (btn == null) return;
             MessageBox.Show(btn.Content.ToString());
 
             if (btn.Tag == null) return;

@@ -70,3 +70,5 @@ E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.g.cs
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MainPage.baml
 E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\MainStructure\MenuPage.baml
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\userUI\UserUI.g.cs
+E:\Githb repository\ChangeGoods\软件工程大作业\交易平台\交易平台\obj\Debug\tb\userUI\UserUI.baml
