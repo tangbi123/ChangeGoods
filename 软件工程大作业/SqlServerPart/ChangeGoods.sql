@@ -1,20 +1,20 @@
--- create database Change
--- on
--- (
--- name = 'Change',
--- filename = 'E:\DATA\Change_data.mdf',
--- size = 5,
--- maxsize = 500,
--- filegrowth = 10%
--- )
+ create database Change
+ on
+ (
+ name = 'Change',
+ filename = 'E:\DATA\Change_data.mdf',
+ size = 5,
+ maxsize = 500,
+ filegrowth = 10%
+ )
 
--- log on
--- (
--- name = 'Change_log',
--- filename = 'E:\DATA\Change_log.ldf',
--- size = 3,
--- filegrowth = 1
--- )
+ log on
+ (
+ name = 'Change_log',
+ filename = 'E:\DATA\Change_log.ldf',
+ size = 3,
+ filegrowth = 1
+ )
 
 --建库部分，自行根据数据库设置建库,名称要统一
 --默认用户名：admin 密码：123456
@@ -81,3 +81,7 @@ CREATE table 违规词表(
     内容 NVARCHAR(100) NOT NULL,
     添加人编号 VARCHAR(10) FOREIGN KEY REFERENCES 管理员(管理员id)
 );
+
+
+-----------------------------------
+--2020.6.13  加一些信息
