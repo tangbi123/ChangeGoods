@@ -13,15 +13,15 @@
                 <GradientStop Color="#FFF0D0E7" Offset="1"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="378" Margin="0,86,0,0" VerticalAlignment="Top" Width="1000" FontSize="18" Opacity="0.54">
+        <RichTextBox x:Name="richTextBox" HorizontalAlignment="Left" Height="464" VerticalAlignment="Top" Width="1000" FontSize="18" Opacity="0.54">
             <FlowDocument>
                 <Paragraph>
                     <Run Text=""/>
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <Button x:Name="button" Content="添加图片" HorizontalAlignment="Left" Margin="103,508,0,0" VerticalAlignment="Top" Width="109" FontSize="20" Height="39" Click="button_Click" Background="{x:Null}" BorderBrush="#FFA674FD" Foreground="#FFC95EF1"/>
-        <Button x:Name="button1" Content="发送" HorizontalAlignment="Left" Margin="702,508,0,0" VerticalAlignment="Top" Width="109" Background="{x:Null}" FontSize="20" Height="39" BorderBrush="#FF14609E" Foreground="#FF2F98B0"/>
+        <Button x:Name="button" Content="添加图片" HorizontalAlignment="Left" Margin="287,508,0,0" VerticalAlignment="Top" Width="109" FontSize="20" Height="39" Click="button_Click" Background="{x:Null}" BorderBrush="#FFA674FD" Foreground="#FFC95EF1"/>
+        <Button x:Name="button1" Content="发送" HorizontalAlignment="Left" Margin="524,508,0,0" VerticalAlignment="Top" Width="109" Background="{x:Null}" FontSize="20" Height="39" BorderBrush="#FF14609E" Foreground="#FF2F98B0"/>
         <WrapPanel HorizontalAlignment="Left" Height="86" VerticalAlignment="Top" Width="1000" Margin="10,0,-10,0"/>
 
     </Grid>

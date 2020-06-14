@@ -14,14 +14,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace 交易平台
+namespace 交易平台.zfw
 {
     /// <summary>
-    /// Send.xaml 的交互逻辑
+    /// upload.xaml 的交互逻辑
     /// </summary>
-    public partial class Send : UserControl
+    public partial class upload : Page
     {
-        public Send()
+        public upload()
         {
             InitializeComponent();
         }
@@ -29,8 +29,6 @@ namespace 交易平台
         private void button_Click(object sender, RoutedEventArgs e)
         {
             string filepath = "";
-
-            string filename = "";
 
             OpenFileDialog openfilejpg = new OpenFileDialog();
 
@@ -73,8 +71,7 @@ namespace 交易平台
                 }
 
                 img.Stretch = Stretch.Uniform;  //图片缩放模式
-
-                new InlineUIContainer(img, richTextBox.Selection.Start); //插入图片到选定位置
+                image = img;
             }
         }
     }

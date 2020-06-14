@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\App.xaml
-11-842564423
+13-1521540198
 
-17-1875763915
+21-204685295
 13738642453
-tb\MainStructure\MainPage.xaml;tb\User\Good.xaml;tb\User\ShopCar.xaml;tb\User\User.xaml;yuhe\consume.xaml;zfw\Change.xaml;zfw\Find.xaml;zfw\Logon.xaml;zfw\Main.xaml;MainWindow.xaml;zfw\Send.xaml;
+tb\MainStructure\MainPage.xaml;tb\User\Good.xaml;tb\User\ShopCar.xaml;tb\User\User.xaml;yuhe\consume.xaml;zfw\Browse.xaml;zfw\Change.xaml;zfw\Find.xaml;zfw\Logon.xaml;zfw\Main.xaml;MainWindow.xaml;zfw\Send.xaml;zfw\upload.xaml;
 
-False
+True
 

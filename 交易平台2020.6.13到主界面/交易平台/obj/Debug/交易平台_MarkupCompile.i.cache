@@ -4,17 +4,21 @@
 winexe
 C#
 .cs
-D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\
 交易平台
 none
 false
 DEBUG;TRACE
-D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\App.xaml
-11-842564423
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\App.xaml
+13-1521540198
 
+<<<<<<< HEAD
 191681195309
+=======
+20-2052937650
+>>>>>>> 585e66ebc44341d3a0adaf536bddfd1fa6020141
 13738642453
-tb\MainStructure\MainPage.xaml;tb\User\Good.xaml;tb\User\ShopCar.xaml;tb\User\User.xaml;yuhe\consume.xaml;zfw\Change.xaml;zfw\Find.xaml;zfw\Logon.xaml;zfw\Main.xaml;MainWindow.xaml;zfw\Send.xaml;
+tb\MainStructure\MainPage.xaml;tb\User\Good.xaml;tb\User\ShopCar.xaml;tb\User\User.xaml;yuhe\consume.xaml;zfw\Browse.xaml;zfw\Change.xaml;zfw\Find.xaml;zfw\Logon.xaml;zfw\Main.xaml;MainWindow.xaml;zfw\Send.xaml;zfw\upload.xaml;
 
-True
+False
 

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,24 @@ namespace 交易平台.tb.User
         public Good()
         {
             InitializeComponent();
+        }
+
+        public Good(DataRow dr)
+        {
+            InitializeComponent();
+            GetGoodInfo(dr);
+        }
+
+        public void GetGoodInfo(DataRow dr)
+        {
+
+            //MessageBox.Show(dr[0].ToString());
+            商品号.Text = "商品号：" + dr[0].ToString();
+            商品名称.Text = "商品名称：" + dr[2].ToString();
+            价格.Content = "单价：" + dr[3] + "￥";
+            图片.Source = new BitmapImage(new Uri(dr[5].ToString(), UriKind.RelativeOrAbsolute));
+            //new Uri(dr[5].ToString(), UriKind.Relative)
+            商品信息.Text = "商品信息：" + dr[6].ToString();
         }
     }
 }

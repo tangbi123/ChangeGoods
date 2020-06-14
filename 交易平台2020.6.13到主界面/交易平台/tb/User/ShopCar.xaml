@@ -21,17 +21,24 @@
         <Rectangle Grid.Row="0" Margin="1"  Width="Auto" Fill="AliceBlue"/>
         <Label Grid.Row="0" Content="购物车" HorizontalAlignment="Center" VerticalAlignment="Center" 
                FontSize="30" FontFamily="楷体" />
-        
-        <Separator Width="Auto" Height="1" Margin="-1,4,1,476" Grid.Row="1"/>
-        
-        <WrapPanel Grid.Row="1" Margin="8">
 
-            <StackPanel>
-                <Frame x:Name="frame2" />
-            </StackPanel>
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+        <Separator Width="Auto" Height="1" Margin="-1,4,1,476" Grid.Row="1"/>
+
+
+        <Canvas  Margin="0 0 10 10" Grid.Row=" 1">
+            <Canvas.Resources>
+                <Style TargetType="ListBoxItem">
+                    <Setter Property="Height" Value="200"/>
+                    <Setter Property="Width" Value="650"/>
+                </Style>
+            </Canvas.Resources>
+            <ListBox Name="lb"   ScrollViewer.VerticalScrollBarVisibility="Visible">
+
+            </ListBox>
+        </Canvas>
+           
+            <!--<StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
                 <Button Content="结算"/>
-            </StackPanel>
-        </WrapPanel>
+            </StackPanel>-->
     </Grid>
 </Page>

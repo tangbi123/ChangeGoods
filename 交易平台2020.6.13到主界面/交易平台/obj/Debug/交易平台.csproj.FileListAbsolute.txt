@@ -161,3 +161,13 @@ D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交�
 D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\交易平台.pdb
 D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\yuhe\consume.g.cs
 D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\yuhe\consume.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\Good.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\ShopCar.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\yuhe\consume.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\Browse.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\Good.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\ShopCar.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\yuhe\consume.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\Browse.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.baml
