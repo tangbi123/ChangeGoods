@@ -83,9 +83,23 @@ CREATE table 违规词表(
 );
 
 
+
 -----------------------------------
 --2020.6.13  加一些信息
 alter table 商品表
 add  图片 varchar(40)
 
 select * from 商品表
+
+
+---------------------------------
+--2020.6.14凡威修改商品表
+
+alter table 商品表
+add 商品描述 varchar(50)
+
+alter table 商品表
+drop constraint FK__商品表__帖子号__5BE2A6F2
+
+alter table 商品表
+drop column 帖子号

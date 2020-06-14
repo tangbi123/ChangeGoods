@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,20 @@ namespace 交易平台.tb.User
         public ShopCar()
         {
             InitializeComponent();
+            GetGoods();
+        }
+
+        public void GetGoods()
+        {
+            string sqlstr = string.Format("select * from 商品表");
+            DataSet ds = TbSql.GetDataSet(sqlstr);
+
+            DataRow drs = ds.Tables[0].Rows[0];
+            // MessageBox.Show(drs[0].ToString() + drs[1].ToString());
+            //lb.Items.Add(new Frame().Content = new Good(drs));
+
+            for (int i = 0; i < ds.Tables[0].Rows.Count; i++)
+                lb.Items.Add(new Frame().Content = new Good(ds.Tables[0].Rows[i]));
         }
     }
 }

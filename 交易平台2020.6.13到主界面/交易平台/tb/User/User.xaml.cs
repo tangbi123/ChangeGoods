@@ -37,6 +37,11 @@ namespace 交易平台.tb.User
         /// <param name="e"></param>
         private void btn1_Click(object sender, RoutedEventArgs e)
         {
+
+            //NavigationService.Navigate(new Uri("/tb/User/ShopCar.xaml",UriKind.Relative));
+            
+            //return;
+
             昵称.IsReadOnly = !昵称.IsReadOnly;
             密码.IsReadOnly = !密码.IsReadOnly;
             if(btnC == false) //编辑
