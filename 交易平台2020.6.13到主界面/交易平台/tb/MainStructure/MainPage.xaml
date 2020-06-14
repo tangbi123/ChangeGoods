@@ -76,7 +76,7 @@
 
             <Expander Header="交易">
                 <ListBox>
-                    <Button Content="2" Tag="这里设置 你的路径在哪里"/>
+                    <Button Content="2" Tag="/yuhe/consume.xaml"/>
                 </ListBox>
             </Expander >
 

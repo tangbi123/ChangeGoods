@@ -67,6 +67,9 @@
     <Compile Include="tb\User\User.xaml.cs">
       <DependentUpon>User.xaml</DependentUpon>
     </Compile>
+    <Compile Include="yuhe\consume.xaml.cs">
+      <DependentUpon>consume.xaml</DependentUpon>
+    </Compile>
     <Compile Include="zfw\Change.xaml.cs">
       <DependentUpon>Change.xaml</DependentUpon>
     </Compile>
@@ -97,6 +100,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="tb\User\User.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="yuhe\consume.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -171,6 +178,7 @@
   <ItemGroup>
     <Resource Include="tb\User\交易.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
