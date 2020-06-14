@@ -8,5 +8,6 @@ namespace 交易平台.yuhe
 {
     class yuheSql
     {
+
     }
 }
