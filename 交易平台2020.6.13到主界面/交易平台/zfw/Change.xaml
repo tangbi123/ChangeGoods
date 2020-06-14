@@ -7,20 +7,23 @@
              mc:Ignorable="d" 
              d:DesignHeight="650" d:DesignWidth="1000">
     <Grid RenderTransformOrigin="0.488,0.549">
-        <Grid.Background>
-            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="#FFDEF5BC" Offset="0"/>
-                <GradientStop Color="#FF9EF7D7" Offset="0.983"/>
-            </LinearGradientBrush>
-        </Grid.Background>
-        <Label x:Name="label" Content="新密码：" HorizontalAlignment="Left" Margin="322,155,0,0" VerticalAlignment="Top" FontSize="20"/>
-        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="417,155,0,0" VerticalAlignment="Top" Width="237" Height="35" FontSize="20"/>
-        <Label x:Name="label1" Content="再次输入密码：" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Margin="262,231,0,0"/>
-        <PasswordBox x:Name="passwordBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="237" Height="35" FontSize="20" Margin="417,231,0,0"/>
-        <Button x:Name="button" Content="确定" HorizontalAlignment="Left" Margin="468,337,0,0" VerticalAlignment="Top" Width="105" FontSize="20" Height="45" Background="{x:Null}" BorderBrush="#FF9EE657" Click="button_Click"/>
-        <Label x:Name="label2" Content="密码不能为空！" HorizontalAlignment="Left" Margin="417,195,0,0" VerticalAlignment="Top" Foreground="#FFFF0404" Visibility="Hidden"/>
-        <Label x:Name="label3" Content="密码最大长度为20！" HorizontalAlignment="Left" Margin="417,195,0,0" VerticalAlignment="Top" Foreground="#FFFF0606" Visibility="Hidden"/>
-        <Label x:Name="label4" Content="两次密码不相同！" HorizontalAlignment="Left" Margin="417,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.4" Foreground="Red" Visibility="Hidden"/>
-
+        <Viewbox Stretch="Fill">
+            <Canvas Width="1000" Height="650">
+                <Canvas.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#FFDEF5BC" Offset="0"/>
+                        <GradientStop Color="#FF9EF7D7" Offset="0.983"/>
+                    </LinearGradientBrush>
+                </Canvas.Background>
+                <Label x:Name="label" Content="新密码：" HorizontalAlignment="Left" Margin="322,155,0,0" VerticalAlignment="Top" FontSize="20"/>
+                <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="417,155,0,0" VerticalAlignment="Top" Width="237" Height="35" FontSize="20"/>
+                <Label x:Name="label1" Content="再次输入密码：" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="20" Margin="262,231,0,0"/>
+                <PasswordBox x:Name="passwordBox1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="237" Height="35" FontSize="20" Margin="417,231,0,0"/>
+                <Button x:Name="button" Content="确定" HorizontalAlignment="Left" Margin="468,337,0,0" VerticalAlignment="Top" Width="105" FontSize="20" Height="45" Background="{x:Null}" BorderBrush="#FF9EE657" Click="button_Click"/>
+                <Label x:Name="label2" Content="密码不能为空！" HorizontalAlignment="Left" Margin="417,195,0,0" VerticalAlignment="Top" Foreground="#FFFF0404" Visibility="Hidden"/>
+                <Label x:Name="label3" Content="密码最大长度为20！" HorizontalAlignment="Left" Margin="417,195,0,0" VerticalAlignment="Top" Foreground="#FFFF0606" Visibility="Hidden"/>
+                <Label x:Name="label4" Content="两次密码不相同！" HorizontalAlignment="Left" Margin="417,271,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.425,0.4" Foreground="Red" Visibility="Hidden"/>
+            </Canvas>
+        </Viewbox>
     </Grid>
 </UserControl>

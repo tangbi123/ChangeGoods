@@ -91,11 +91,11 @@ namespace 交易平台.zfw
                 label13.Visibility = Visibility.Visible;
                 return;
             }
-            //if (pass3.Equals("") || pass3 != code)
-            //{
-            //    label9.Visibility = Visibility.Visible;
-            //    return;
-            //}
+            if (pass3.Equals("") || pass3 != code)
+            {
+                label9.Visibility = Visibility.Visible;
+                return;
+            }
             SQLCon sqlcon = new SQLCon();
             int i = sqlcon.Logon(email, pass1, sex, name);
             if(i != 1)
@@ -153,7 +153,6 @@ namespace 交易平台.zfw
             catch(Exception ex)
             {
                 MessageBox.Show("输入正确的邮箱格式！");
-                MessageBox.Show(ex.Message);
 
             }
         }

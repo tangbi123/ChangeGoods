@@ -70,7 +70,7 @@
             </StackPanel.Resources>
             <Expander Header="通讯">
                 <ListBox>
-                    <Button Content="1" Tag="这里设置 你的路径在哪里"/>
+                    <Button Content="1" Tag="/zfw/Browse.xaml"/>
                 </ListBox>
             </Expander>
 

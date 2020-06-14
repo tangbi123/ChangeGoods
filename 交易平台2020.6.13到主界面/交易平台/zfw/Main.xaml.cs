@@ -42,15 +42,15 @@ namespace 交易平台.zfw
                 label2.Visibility = Visibility.Visible;
                 return;
             }
-            SQLCon sqlcon = new SQLCon();
-            string password = sqlcon.Login(emial);
-            if(password == "")
+            string pass = passwordBox.Password;
+            if(pass == "")
             {
                 label2.Visibility = Visibility.Visible;
                 return;
             }
-            string pass = passwordBox.Password;
            
+            SQLCon sqlcon = new SQLCon();
+            string password = sqlcon.Login(emial);
             if(pass == password)
             {
                 this.Content = new Frame()

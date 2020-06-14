@@ -30,8 +30,6 @@ namespace 交易平台.zfw
         {
             string filepath = "";
 
-            string filename = "";
-
             OpenFileDialog openfilejpg = new OpenFileDialog();
 
             openfilejpg.Filter = "jpg图片(*.jpg)|*.jpg|gif图片(*.gif)|*.gif";
