@@ -11,6 +11,7 @@ namespace 交易平台
 {
     class SQLCon
     {
+        public static string mail;
         public string s = null;
         public SqlConnection conn;
         public SQLCon()
@@ -23,6 +24,7 @@ namespace 交易平台
                 "Password=123456;";
             conn = new SqlConnection(s);
         }
+
 
         public int Logon(string email, string password, string sex, string name)
         {
@@ -58,6 +60,7 @@ namespace 交易平台
 
         public string Login(string email)
         {
+            mail = email;
             string password = "";
             try
             {
@@ -134,5 +137,7 @@ namespace 交易平台
                 conn.Close();
             }
         }
+
+        
     }
 }

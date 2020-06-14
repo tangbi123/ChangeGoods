@@ -31,7 +31,7 @@ namespace 交易平台.tb.MainStructure
             Button btn = e.Source as Button;
             if (btn == null) return;
 
-            MessageBox.Show(btn.Content.ToString());
+            //MessageBox.Show(btn.Content.ToString());
             Uri source = new Uri(btn.Tag.ToString(), UriKind.Relative);
 
             //测试 路径设置是否正确
@@ -49,7 +49,7 @@ namespace 交易平台.tb.MainStructure
             Page p = obj as Page;
             if(p!=null)
             {
-                MessageBox.Show(source.OriginalString);
+                //MessageBox.Show(source.OriginalString);
                 //frame1.NavigationService.RemoveBackEntry();
                 frame1.Source = source;
                 return;
