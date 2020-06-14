@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using 交易平台.tb;
+using 交易平台.yuhe;
 
 namespace 交易平台.tb.MainStructure
 {
