@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using 交易平台.tb.MainStructure;
 
 namespace 交易平台.tb.User
 {
@@ -23,6 +24,11 @@ namespace 交易平台.tb.User
         public User()
         {
             InitializeComponent();
+        }
+
+        private void btn1_Click(object sender, RoutedEventArgs e)
+        {
+            
         }
     }
 }

@@ -85,3 +85,7 @@ CREATE table 违规词表(
 
 -----------------------------------
 --2020.6.13  加一些信息
+alter table 商品表
+add  图片 varchar(40)
+
+select * from 商品表

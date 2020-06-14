@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using 交易平台.tb;
 
 namespace 交易平台.tb.MainStructure
 {
@@ -48,7 +49,8 @@ namespace 交易平台.tb.MainStructure
             Page p = obj as Page;
             if(p!=null)
             {
-                frame1.NavigationService.RemoveBackEntry();
+                MessageBox.Show(source.OriginalString);
+                //frame1.NavigationService.RemoveBackEntry();
                 frame1.Source = source;
                 return;
             }

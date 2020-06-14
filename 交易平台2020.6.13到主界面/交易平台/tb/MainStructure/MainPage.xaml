@@ -5,9 +5,9 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:交易平台.tb.MainStructure"
       mc:Ignorable="d"
-      Title="MainPage" Height="602.375" Width="925">
+      Title="MainPage" Height="680" Width="900">
 
-    <Grid Margin="20">
+    <Grid Margin="10,10,20,20"  >
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="200" />
             <ColumnDefinition Width="*" />
@@ -16,28 +16,29 @@
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-
+        
         <Rectangle Fill="#4CFFD415" Grid.Row="0" Height="100" Grid.ColumnSpan="2" />
-        <Image  Source="shop.jpg" Grid.Row="0" Grid.Column="0"  Margin="0"   Stretch="fill" Height="100" />
-
+        <Image  Source="shop.jpg" Grid.Row="0" Grid.Column="0"  Margin="3"   Stretch="fill" Height="100" />
+        
         <StackPanel Grid.Row="0" Grid.Column="1" Width="100" RenderTransformOrigin="0.94,0.525" Margin="585,0,0,38">
             <Button Content="退出"  Background="#4C3FD8AF" Width="50" Margin="25,0" />
 
         </StackPanel>
         <Separator Background="{x:Null}"/>
 
-        <Rectangle Grid.ColumnSpan="2" Grid.Row="1" Fill="white" RadiusX="14"
-                RadiusY="14" Stroke="Blue" StrokeDashArray="3" />
-        <Rectangle Grid.Column="0" Grid.Row="1" Margin="0" Fill="#FFF3F8FD" RadiusX="10"
+        <Rectangle Grid.ColumnSpan="1" Grid.Row="1" Grid.Column="1" Fill="white" RadiusX="14"
+                RadiusY="14" Stroke="Blue" StrokeDashArray="3" Margin="5"/>
+        <Rectangle Grid.Column="0" Grid.Row="1" Margin="5" Fill="#FFF3F8FD" RadiusX="10"
                 RadiusY="10" Stroke="Blue" StrokeDashArray="3" />
 
 
-        <StackPanel Grid.Column="0" Grid.Row="1" 
-                      Width="200"
+        <StackPanel Grid.Column="0" Grid.Row="1" Margin="2" 
+                      Width="Auto" Height="Auto"
                     Background="#FFF8FBE5" Button.Click="Button_CLick">
             <StackPanel.Resources>
                 <Style TargetType="ListBox">
                     <Setter Property="Background" Value="White"/>
+                    <!--<Setter Property="Margin" Value="2"/>-->
                 </Style>
 
                 <Style TargetType="ListBoxItem">
@@ -52,7 +53,7 @@
                 <Style TargetType="Button">
                     <Setter Property="Background" Value="#1902F4FF"/>
                     <Setter Property="FontSize" Value="11pt" />
-                    <Setter Property="Width" Value="178"/>
+                    <Setter Property="Width" Value="174"/>
                 </Style>
 
                 <Style TargetType="Expander">
@@ -81,11 +82,11 @@
 
             <Expander Header = "用户" >
                 <ListBox>
-                    <Button Content="3" Tag="这里设置 你的路径在哪里"/>
+                    <Button Content="个人信息"  Tag="/tb/User/User.xaml"/>
                     <Button Content="4" Tag="这里设置 你的路径在哪里"/>
                 </ListBox>
             </Expander>
         </StackPanel>
-        <Frame Name="frame1" Grid.Column="1" Grid.Row="1"  Margin="10,0,0,0" />
+        <Frame x:Name="frame1" Grid.Column="1" Grid.Row="1"  Margin="10,0,0,0" />
     </Grid>
 </Page>

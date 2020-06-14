@@ -5,10 +5,55 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:交易平台.tb.User"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
-      Title="User">
+      d:DesignHeight="535" d:DesignWidth="650"
+      Title="User" Margin="5">
 
-    <Grid>
-        
+    <Grid Background="#60ADD6E6">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Margin="4">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--<Separator RenderTransformOrigin="1.725,0.285" Grid.Column="1" Margin="10,10,590,-6"/>-->
+
+            <Image Name="touxiang" Source="交易.png" Width="100" Grid.Column="0"
+                   Margin="5"/>
+            <Label Name="nicheng" Content="基本信息" FontSize="30" Grid.Column="1"  Height="Auto" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10,30,122,37" Width="134"/>
+            <Button Name="btn1" Content="编辑" FontSize="30" Grid.Column="2" Click="btn1_Click" Background="#60ADE6DC" 
+                    Margin="190,30,10,30"/>
+        </Grid>
+
+
+
+        <Separator Height="1" Margin="0,111,0,5"/>
+
+        <StackPanel Grid.Row="1" Margin="5">
+            <StackPanel.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="Height" Value="35"/>
+                    <Setter Property="Width" Value="100"/>
+                    <Setter Property="FontSize" Value="24"/>
+                    <Setter Property="FontFamily" Value="楷体"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Height" Value="Auto"/>
+                    <Setter Property="Width" Value="Auto"/>
+                    <Setter Property="FontSize" Value="24"/>
+                    <Setter Property="FontFamily" Value="楷体"/>
+                </Style>
+            </StackPanel.Resources>
+            <Label Content="用户号："  Width="100"  Margin="91,20,449,200"  />
+            <Label x:Name="用户号" Content="Label"  Margin="50,29,0,0" />
+            <TextBox HorizontalAlignment="Left" Height="22" Margin="160,121,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        </StackPanel>
     </Grid>
 </Page>
