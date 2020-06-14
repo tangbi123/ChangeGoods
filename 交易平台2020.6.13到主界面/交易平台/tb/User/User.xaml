@@ -42,7 +42,7 @@
             <Image Name="touxiang" Source="交易.png" Width="100" Grid.Column="0"
                    Margin="-10,0,10,0"/>
             <Label Name="基本信息" Content="基本信息" FontSize="30" Grid.Column="1"  Height="Auto" 
-                    Margin="10,15,122,5" Width="134"/>
+                    Margin="10,15,122,5" Width="Auto"/>
             <Button Name="btn1" Content="编辑" FontSize="30" Grid.Column="2" Click="btn1_Click" Background="#60ADE6DC" 
                     Margin="190,18,10,17"/>
         </Grid>
@@ -69,7 +69,7 @@
                 </Style>
             </WrapPanel.Resources>
             <WrapPanel  Margin="5">
-                <Label Content="用户号："  />
+                <Label Content="用户号："  HorizontalContentAlignment="Right" />
                 <Label Content="" Name="用户号"  />
             </WrapPanel>
             
@@ -80,19 +80,19 @@
                 <Label Content="" Name="手机号"  />
             </WrapPanel>-->
             <WrapPanel  Margin="5">
-                <Label Content="昵称："  />
+                <Label Content="昵称：" HorizontalContentAlignment="Right"  />
                 <TextBox  Name="昵称"  Width="Auto" Text="123"/>
             </WrapPanel>
             <WrapPanel  Margin="5">
-                <Label Content="邮箱："  />
+                <Label Content="邮箱："  HorizontalContentAlignment="Right" />
                 <Label Content="" Name="邮箱" Width="Auto" />
             </WrapPanel>
             <WrapPanel  Margin="5">
-                <Label Content="密码："  />
+                <Label Content="密码："  HorizontalContentAlignment="Right" />
                 <TextBox  Text="243" Name="密码" Width="Auto" Background="#60ADD6E6"/>
             </WrapPanel>
             <WrapPanel  Margin="5">
-                <Label Content="性别："  />
+                <Label Content="性别："  HorizontalContentAlignment="Right" />
                 <Label Content="" Name="性别"  />
             </WrapPanel>
             
@@ -101,11 +101,11 @@
                 <Label Content="" Name="用户等级"  />
             </WrapPanel>
             <WrapPanel  Margin="5">
-                <Label Content="信誉等级："  />
+                <Label Content="信誉等级："  HorizontalContentAlignment="Right" />
                 <Label Content="" Name="信誉等级"  />
             </WrapPanel>
             <WrapPanel  Margin="5">
-                <Label Content="注册时间："  />
+                <Label Content="注册时间："  HorizontalContentAlignment="Right" />
                 <Label Content="" Name="注册时间"  />
             </WrapPanel>
         </WrapPanel>

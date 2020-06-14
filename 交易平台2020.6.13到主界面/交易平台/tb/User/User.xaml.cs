@@ -75,7 +75,7 @@ namespace 交易平台.tb.User
 
             DataRow dr = ds.Tables[0].Rows[0];
 
-            基本信息.Content = dr[5] + "的基本信息";
+           // 基本信息.Content = dr[5] + "的基本信息";
             用户号.Content = dr[0];
             //手机号.Content = dr[1];
             邮箱.Content = dr[2];

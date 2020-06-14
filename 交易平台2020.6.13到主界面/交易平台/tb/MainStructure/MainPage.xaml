@@ -83,7 +83,7 @@
             <Expander Header = "用户" >
                 <ListBox>
                     <Button Content="个人信息"  Tag="/tb/User/User.xaml"/>
-                    <Button Content="4" Tag="这里设置 你的路径在哪里"/>
+                    <Button Content="购物车" Tag="/tb/User/ShopCar.xaml"/>
                 </ListBox>
             </Expander>
         </StackPanel>

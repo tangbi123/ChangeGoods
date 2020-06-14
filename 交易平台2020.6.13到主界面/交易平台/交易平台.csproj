@@ -58,6 +58,12 @@
     <Compile Include="tb\MainStructure\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="tb\User\Good.xaml.cs">
+      <DependentUpon>Good.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tb\User\ShopCar.xaml.cs">
+      <DependentUpon>ShopCar.xaml</DependentUpon>
+    </Compile>
     <Compile Include="tb\User\User.xaml.cs">
       <DependentUpon>User.xaml</DependentUpon>
     </Compile>
@@ -81,6 +87,14 @@
     <Page Include="tb\MainStructure\MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="tb\User\Good.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tb\User\ShopCar.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="tb\User\User.xaml">
       <SubType>Designer</SubType>
