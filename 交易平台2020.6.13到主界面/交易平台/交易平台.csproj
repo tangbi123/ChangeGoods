@@ -70,6 +70,7 @@
     <Compile Include="yuhe\consume.xaml.cs">
       <DependentUpon>consume.xaml</DependentUpon>
     </Compile>
+    <Compile Include="yuhe\yuheSql.cs" />
     <Compile Include="zfw\Change.xaml.cs">
       <DependentUpon>Change.xaml</DependentUpon>
     </Compile>
