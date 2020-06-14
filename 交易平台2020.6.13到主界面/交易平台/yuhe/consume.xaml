@@ -12,21 +12,24 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="240"/>
             <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="57*"/>
+            <ColumnDefinition Width="55*"/>
         </Grid.ColumnDefinitions>
-        <Grid Background="#FF818181">
+        <Grid Background="#FF818181" Grid.ColumnSpan="3" Margin="0,0,284,0">
             <Grid.RowDefinitions>
                 <RowDefinition Height="185"/>
                 <RowDefinition Height="Auto"/>
             </Grid.RowDefinitions>
             <GroupBox Header="图片信息" Margin="10" Name="GroupBox_Img" VerticalAlignment="Center"
                       Height="150">
-                
+                <Image x:Name="Detail_Image"  HorizontalAlignment="Left" Height="130" Margin="4,-6,0,0" VerticalAlignment="Top" Width="201"/>
+
             </GroupBox>
             <GroupBox Header="商品信息" Margin="10" Name="GroupBox_Inf" VerticalAlignment="Center" 
                       Grid.Row="1" Height="245" Background="#FFC1BFBF">
                 <StackPanel x:Name="Data_StackPanel" Orientation="Vertical">
-                    
-                    <Expander Header="卖家信息" IsExpanded="False" Margin="5" Background="#FFDEDBDB" >
+
+                    <Expander Header="卖家信息" IsExpanded="True" Margin="5" Background="#FFDEDBDB" >
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="Auto"/>
@@ -49,15 +52,64 @@
                         </Grid>
                     </Expander>
                     <Expander Header="类别" IsExpanded="True" Margin="5"  Background="#FFDEDBDB" >
-                        
+
                     </Expander>
                     <Expander Header="新旧程度" IsExpanded="False" Margin="5" Background="#FFDEDBDB">
-                        
+
                     </Expander>
-                    
-                </StackPanel> 
+
+                </StackPanel>
             </GroupBox>
         </Grid>
-        
+        <Canvas x:Name="Canvas_bug" Margin="10" Grid.Column="1" Grid.ColumnSpan="3">
+            <Canvas.Background>
+                <ImageBrush ImageSource="/yuhe/Img/哥特吹雪.jpg" Stretch="UniformToFill" Opacity="0.18"/>
+            </Canvas.Background>
+            <ScrollViewer Height="380" Canvas.Left="35" Canvas.Top="30" Width="470" HorizontalAlignment="Center" HorizontalScrollBarVisibility="Auto">
+                <GroupBox x:Name="CType_GroupBox" Header="支付信息：" Height="495" Canvas.Left="85" Canvas.Top="45" Width="450">
+                    <StackPanel Margin="0">
+                        <Grid x:Name="dataContent_Grid" Margin="0" Opacity="100">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="125"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Content="邮寄方式：" HorizontalAlignment="Center" Height="25" Margin="10" VerticalAlignment="Center" Width="90"/>
+                            <ComboBox Name="CType_Combox" Width="200" Height="21" Grid.Column="1" HorizontalAlignment="Center" Margin="10">
+                                <ComboBoxItem>线下交付</ComboBoxItem>
+                                <ComboBoxItem>邮寄</ComboBoxItem>
+                            </ComboBox>
+                        </Grid>
+                        <Separator/>
+                        <Grid x:Name="dataContent1_Grid" Margin="0" Opacity="100" Height="55">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="125"/>
+                                <ColumnDefinition Width="Auto"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Content="公益捐款：" HorizontalAlignment="Center" Height="25" Margin="10" VerticalAlignment="Center" Width="90"/>
+                            <GroupBox Header="您将多支付0.2元，为贫困贡献孩童助力" Margin="1" Grid.Column="1" Width="310">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" >
+                                    <RadioButton x:Name="True" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center">是</RadioButton>
+                                    <RadioButton x:Name="False">否</RadioButton>
+                                </StackPanel>
+                            </GroupBox>
+                        </Grid>
+                        <Separator/>
+                        <StackPanel >
+                            <GroupBox Header="请选择支付方式" Margin="1" Grid.Column="1" Width="410" Height="60">
+                                <StackPanel Orientation="Horizontal" VerticalAlignment="Center" >
+                                    <RadioButton x:Name="wechat_Button" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center">微信</RadioButton>
+                                    <RadioButton x:Name="alipay_Button" Width="92">支付宝</RadioButton>
+                                </StackPanel>
+                            </GroupBox>
+                            <GroupBox Header="付款二维码" Margin="1" Height="300" VerticalAlignment="Center">
+                                <Image x:Name="Pay_Image" Source="/yuhe/Img/少女Loading.png" Margin="20,20,18,0" />
+                            </GroupBox>
+                        </StackPanel>
+                    </StackPanel>
+                </GroupBox>
+
+            </ScrollViewer>
+
+        </Canvas>
     </Grid>
 </Page>
