@@ -1,6 +1,7 @@
 ﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -13,6 +14,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using 交易平台.tb;
 
 namespace 交易平台.zfw
 {
@@ -46,33 +48,61 @@ namespace 交易平台.zfw
 
                 filepath = openfilejpg.FileName;
 
-                Image img = new Image();
-
                 BitmapImage bImg = new BitmapImage();
 
-                img.IsEnabled = true;
+                image1.IsEnabled = true;
 
                 bImg.BeginInit();
 
-                bImg.UriSource = new Uri(filepath, UriKind.Relative);
+                bImg.UriSource = new Uri(filepath, UriKind.RelativeOrAbsolute);
 
                 bImg.EndInit();
 
-                img.Source = bImg;
+                image1.Source = bImg;
+        }
+    }
 
-                if (bImg.Height > 100 || bImg.Width > 100)
-
-                {
-
-                    img.Height = bImg.Height * 0.5;
-
-                    img.Width = bImg.Width * 0.5;
-
-                }
-
-                img.Stretch = Stretch.Uniform;  //图片缩放模式
-                image = img;
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            label4.Visibility = Visibility.Hidden;
+            string user_num = SQLCon.num;
+            string good_num = "";
+            string name = textBox1.Text;
+            string text = textBox.Text;
+            string imgpath = "";
+            string price = textBox2.Text;
+            string type = comboBox.Text;
+            if (name.Equals(""))
+            {
+                label4.Visibility = Visibility.Visible;
+                return;
             }
+            if (image1.Source != null)
+                imgpath = image1.Source.ToString();
+            string sql1 = "select top 1 商品号 from 商品表 order by 商品号 desc";
+            DataSet ds = TbSql.GetDataSet(sql1);
+            if (ds.Tables[0].Rows.Count>0)
+            {
+                DataRow dr = ds.Tables[0].Rows[0];
+                good_num = (Int32.Parse(dr[0].ToString()) + 1).ToString();
+            }
+            else
+            {
+                good_num = "100001";
+            }
+            if (price.Equals(""))
+                price = "1";
+            
+            SQLCon sqlcon = new SQLCon();
+            //MessageBox.Show(good_num + "\n" + user_num + "\n" + name + "\n" + price + "\n" + type + "\n" + imgpath + "\n" + text);
+            string sql = string.Format("insert into 商品表 values('{0}','{1}','{2}',{3},'{4}','{5}','{6}')",
+                good_num, user_num, name, price, type, imgpath, text);
+            bool f = sqlcon.Upload(sql);
+            if (f)
+            {
+                MessageBox.Show("上传成功！");
+            }
+
         }
     }
 }

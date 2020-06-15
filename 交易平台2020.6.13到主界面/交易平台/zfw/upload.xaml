@@ -9,11 +9,29 @@
       Title="upload">
 
     <Grid>
-        <Label x:Name="label" Content="商品描述：" HorizontalAlignment="Left" Margin="71,11,0,0" VerticalAlignment="Top" FontSize="18"/>
-        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="192" Margin="171,11,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="472" FontSize="18"/>
-        <Button x:Name="button" Content="添加图片" HorizontalAlignment="Left" Margin="135,363,0,0" VerticalAlignment="Top" Width="109" Height="39" FontSize="20" Click="button_Click"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="100" Margin="171,223,0,0" VerticalAlignment="Top" Width="100"/>
-        <Button x:Name="button1" Content="上传" HorizontalAlignment="Left" Margin="439,363,0,0" VerticalAlignment="Top" Width="109" Height="39" FontSize="20"/>
+        <Label x:Name="label" Content="商品描述：" HorizontalAlignment="Left" Margin="71,74,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="145" Margin="171,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="472" FontSize="18"/>
+        <Button x:Name="button" Content="添加图片" HorizontalAlignment="Left" Margin="142,375,0,0" VerticalAlignment="Top" Width="109" Height="39" FontSize="20" Click="button_Click"/>
+        <Image x:Name="image1" HorizontalAlignment="Left" Height="121" Margin="171,232,0,0" VerticalAlignment="Top" Width="134"/>
+        <Button x:Name="button1" Content="上传" HorizontalAlignment="Left" Margin="441,375,0,0" VerticalAlignment="Top" Width="109" Height="39" FontSize="20" Click="button1_Click"/>
+        <Label x:Name="label1" Content="照片描述：" HorizontalAlignment="Left" Margin="71,232,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <Label x:Name="label2" Content="商品名称：" HorizontalAlignment="Left" Margin="71,10,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="33" Margin="171,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="472" FontSize="18"/>
+        <Label x:Name="label3" Content="最多50字" HorizontalAlignment="Left" Margin="95,107,0,0" VerticalAlignment="Top" Foreground="#FFE41D1D"/>
+        <Label x:Name="label4" Content="商品名称不能为空！" HorizontalAlignment="Left" Margin="171,48,0,0" VerticalAlignment="Top" Background="{x:Null}" Foreground="#FFFB0303" Visibility="Hidden"/>
+        <Label x:Name="label5" Content="价格：" HorizontalAlignment="Left" Margin="329,320,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="33" Margin="393,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="114" FontSize="18" Text=""/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="393,232,0,0" VerticalAlignment="Top" Width="120" FontSize="18" SelectedIndex="0">
+            <ListBoxItem Content="食品"/>
+            <ListBoxItem Content="运动"/>
+            <ListBoxItem Content="药品"/>
+            <ListBoxItem Content="服饰"/>
+            <ListBoxItem Content="数码电子"/>
+            <ListBoxItem Content="书籍"/>
+            <ListBoxItem Content="饰品"/>
+            <ListBoxItem Content="箱包"/>
+        </ComboBox>
+        <Label x:Name="label6" Content="类别：" HorizontalAlignment="Left" Margin="329,232,0,0" VerticalAlignment="Top" FontSize="18"/>
 
     </Grid>
 </Page>

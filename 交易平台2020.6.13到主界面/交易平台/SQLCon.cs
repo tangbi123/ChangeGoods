@@ -12,6 +12,7 @@ namespace 交易平台
     class SQLCon
     {
         public static string mail;
+        public static string num;
         public string s = null;
         public SqlConnection conn;
         public SQLCon()
@@ -25,7 +26,6 @@ namespace 交易平台
             conn = new SqlConnection(s);
         }
 
-
         public int Logon(string email, string password, string sex, string name)
         {
             try
@@ -35,8 +35,10 @@ namespace 交易平台
                 SqlCommand cmd = conn.CreateCommand();
                 cmd.CommandText = "SELECT TOP 1 用户号 FROM 会员表 order by 用户号 desc";
                 SqlDataReader reader = cmd.ExecuteReader();
-                reader.Read();
-                num = Int32.Parse(reader.GetString(reader.GetOrdinal("用户号")));
+                if (reader.Read())
+                    num = Int32.Parse(reader.GetString(reader.GetOrdinal("用户号")));
+                else
+                    num = 100001;
                 reader.Close();
                 string sql = string.Format("insert into 会员表(用户号,手机号,邮箱,密码,性别,昵称) values('{0}',null,'{1}','{2}','{3}','{4}')",
                                             num + 1, email, password, sex, name);
@@ -58,9 +60,8 @@ namespace 交易平台
 
         }
 
-        public string Login(string email)
+        public string Login(string email)   
         {
-            mail = email;
             string password = "";
             try
             {
@@ -73,6 +74,7 @@ namespace 交易平台
                     return "";
                 }
                 password = reader.GetString(reader.GetOrdinal("密码"));
+                num = reader.GetString(reader.GetOrdinal("用户号"));
             }
             catch (Exception e)
             {
@@ -85,6 +87,8 @@ namespace 交易平台
                     conn.Close();
                 }
             }
+            mail = email;
+           
             return password;
         }
 
@@ -138,6 +142,23 @@ namespace 交易平台
             }
         }
 
-        
+        public bool Upload(string sql)
+        {
+
+                conn.Open();
+                SqlCommand cmd = new SqlCommand(sql, conn);
+                int i = cmd.ExecuteNonQuery();
+            if (i == 1)
+            {
+                conn.Close();
+                return true;
+            }
+            else
+            {
+                conn.Close();
+                return false;
+            }
+
+        }
     }
 }
