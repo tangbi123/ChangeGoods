@@ -24,20 +24,21 @@
 
         <Separator Width="Auto" Height="1" Margin="-1,4,1,476" Grid.Row="1"/>
 
-
-        <Canvas  Margin="0 0 10 10" Grid.Row=" 1">
+        <Canvas  Margin="0 0 10 10" >
             <Canvas.Resources>
                 <Style TargetType="ListBoxItem">
                     <Setter Property="Height" Value="200"/>
-                    <Setter Property="Width" Value="650"/>
+                    <Setter Property="Width" Value="630"/>
                 </Style>
             </Canvas.Resources>
-            <ListBox Name="lb"   ScrollViewer.VerticalScrollBarVisibility="Visible">
+
+            <ListBox Name="lb" ScrollViewer.VerticalScrollBarVisibility="Visible">
 
             </ListBox>
+
         </Canvas>
-           
-            <!--<StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
+
+        <!--<StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Right" >
                 <Button Content="结算"/>
             </StackPanel>-->
     </Grid>

@@ -10,25 +10,19 @@
 
     <Grid>
         <Viewbox Stretch="Fill">
-            <Canvas x:Name="ca" Width="650" Height="650">
+            <Canvas x:Name="ca" Width="1000" Height="650">
                 <Canvas.Background>
                     <LinearGradientBrush EndPoint="0,0.7" StartPoint="1,0.2">
                         <GradientStop Color="#FFFDFDC4" Offset="0"/>
                         <GradientStop Color="#FFF7F75D" Offset="1"/>
                     </LinearGradientBrush>
                 </Canvas.Background>
-                <Canvas.Resources>
-                    <Style TargetType="ListBoxItem">
-                        <Setter Property="Height" Value="200"/>
-                        <Setter Property="Width" Value="650"/>
-                    </Style>
-                </Canvas.Resources>
-                <ListBox x:Name="listBox" Height="601" Width="650" Canvas.Top="49">
-                </ListBox>
                 
-                <!--<Button x:Name="button"  Canvas.Left="845" Width="151" Height="44" FontSize="20" Background="{x:Null}" >
+                <ListBox x:Name="listBox" Height="601" Width="1000" Canvas.Top="49">
+                </ListBox>
+                <Button x:Name="button"  Canvas.Left="845" Width="151" Height="44" FontSize="20" Background="{x:Null}" >
                     <Hyperlink NavigateUri="upload.xaml">上传商品</Hyperlink>
-                </Button>-->
+                </Button>
 
             </Canvas>
         </Viewbox>

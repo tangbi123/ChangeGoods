@@ -171,3 +171,7 @@ E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\o
 E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\Browse.baml
 E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.g.cs
 E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.baml
+D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\Browse.g.cs
+D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.g.cs
+D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\Browse.baml
+D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.baml
