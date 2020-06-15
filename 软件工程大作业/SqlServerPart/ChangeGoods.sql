@@ -100,3 +100,25 @@ drop constraint FK__商品表__帖子号__49C3F6B7
 
 alter table 商品表
 drop column 帖子号
+
+-------2002.6.15修改图片长度
+alter table 商品表
+alter column 图片 varchar(100)
+
+select * from 商品表
+
+
+-------------
+--  2020.6.15 添加 购物车
+create table 购物车
+(
+用户号 varCHAR(6) ,--我添加外键约束 失败。。。。
+商品号 varchar(10) references 商品表(商品号),
+primary key(用户号,商品号)
+)
+
+delete  from 购物车
+
+Update  会员表 set 用户号 = '000001' where 邮箱='3160023567@qq.com'
+
+alter table 购物车 alter column 用户号 varchar(6) 

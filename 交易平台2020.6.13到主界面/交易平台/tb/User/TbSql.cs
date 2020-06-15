@@ -59,9 +59,9 @@ namespace 交易平台.tb
                 conn.Open();
                 rowCount = sc.ExecuteNonQuery();
             }
-            catch
+            catch(Exception e)
             {
-                MessageBox.Show("操作 失败");
+                MessageBox.Show(e.Message);
             }
             finally
             {

@@ -48,6 +48,7 @@ namespace 交易平台.zfw
 
                 filepath = openfilejpg.FileName;
 
+
                 BitmapImage bImg = new BitmapImage();
 
                 image1.IsEnabled = true;

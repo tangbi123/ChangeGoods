@@ -17,16 +17,18 @@ using System.Windows.Shapes;
 namespace 交易平台.tb.User
 {
     /// <summary>
-    /// Good.xaml 的交互逻辑
+    /// GouwuGood.xaml 的交互逻辑
     /// </summary>
-    public partial class Good : Page
+    /// 
+    
+    public partial class GouwuGood : Page
     {
-        public Good()
+        public string goodno;
+        public GouwuGood()
         {
             InitializeComponent();
         }
-
-        public Good(DataRow dr)
+        public GouwuGood(DataRow dr)
         {
             InitializeComponent();
             GetGoodInfo(dr);
@@ -34,7 +36,7 @@ namespace 交易平台.tb.User
 
         public void GetGoodInfo(DataRow dr)
         {
-
+            goodno = dr[0].ToString();
             //MessageBox.Show(dr[0].ToString());
             商品号.Text = /*"商品号：" + */dr[0].ToString();
             商品名称.Text = "商品名称：" + dr[2].ToString();
@@ -42,18 +44,6 @@ namespace 交易平台.tb.User
             图片.Source = new BitmapImage(new Uri(dr[5].ToString(), UriKind.RelativeOrAbsolute));
             //new Uri(dr[5].ToString(), UriKind.Relative)
             商品信息.Text = "商品信息：" + dr[6].ToString();
-        }
-
-        private void addBtn(object sender, RoutedEventArgs e)
-        {
-            string sno = 商品号.Text;
-            string uno = SQLCon.num;
-
-            string sql = string.Format("insert into 购物车 values ('{0}', '{1}')", uno,sno);
-
-            int row = TbSql.UpdateSql(sql);
-            if (row > 0) MessageBox.Show("添加成功!!");
-            //else MessageBox.Show("添加失败!!");
         }
     }
 }

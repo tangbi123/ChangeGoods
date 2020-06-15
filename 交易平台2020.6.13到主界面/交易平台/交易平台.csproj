@@ -61,6 +61,9 @@
     <Compile Include="tb\User\Good.xaml.cs">
       <DependentUpon>Good.xaml</DependentUpon>
     </Compile>
+    <Compile Include="tb\User\GouwuGood.xaml.cs">
+      <DependentUpon>GouwuGood.xaml</DependentUpon>
+    </Compile>
     <Compile Include="tb\User\ShopCar.xaml.cs">
       <DependentUpon>ShopCar.xaml</DependentUpon>
     </Compile>
@@ -71,12 +74,10 @@
     <Compile Include="yuhe\consume.xaml.cs">
       <DependentUpon>consume.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="yuhe\yuheSql.cs" />
     <Compile Include="zfw\Browse.xaml.cs">
       <DependentUpon>Browse.xaml</DependentUpon>
     </Compile>
-
     <Compile Include="zfw\Change.xaml.cs">
       <DependentUpon>Change.xaml</DependentUpon>
     </Compile>
@@ -101,6 +102,10 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Include="tb\User\Good.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tb\User\GouwuGood.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -196,13 +201,11 @@
     <Resource Include="tb\User\交易.png" />
   </ItemGroup>
   <ItemGroup>
-
     <Resource Include="yuhe\Img\哥特吹雪.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="yuhe\Img\少女Loading.png" />
     <Resource Include="tb\User\javascript.png" />
-
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
