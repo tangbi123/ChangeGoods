@@ -76,7 +76,7 @@
 
             <Expander Header="交易">
                 <ListBox>
-                    <Button Content="2" Tag="/yuhe/consume.xaml"/>
+                    <Button Content="购买界面" Tag="/yuhe/consume.xaml"/>
                 </ListBox>
             </Expander >
 
