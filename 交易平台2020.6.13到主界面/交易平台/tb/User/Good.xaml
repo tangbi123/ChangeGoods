@@ -62,10 +62,16 @@
                     <ColumnDefinition Width="1*"/>
                 </Grid.ColumnDefinitions>
 
+<<<<<<< HEAD
                 <Label Name="价格" Content="123￥" Width="150" Height="Auto" Margin="2,6,81,26"/>
                 <Button Content="加入购物车" Width="100" Height="40" Margin="36,2,93,21" Grid.Column="1" Background="#88F0A116"
                         Click="addBtn"/>
                 <Button Content="结算" Width="50" Height="40" Margin="154,2,25,21" Grid.Column="1" Background="#88F0A116"/>
+=======
+                <Label Name="价格" Content="123￥" Width="150" Height="60" Margin="0,0,79,0"/>
+                <Button Content="加入购物车" Width="100" Height="40" Margin="36,2,93,21" Grid.Column="1" Background="#88F0A116"/>
+                <Button Content="结算" Width="50" Height="40" Margin="154,2,25,21" Grid.Column="1" Background="#88F0A116" Click="Click_pay" Tag="consume"/>
+>>>>>>> 352b4b8caef75cc90c98ef5eb53f6d5f585694d5
                 <!--<StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right">
                 
             </StackPanel>-->

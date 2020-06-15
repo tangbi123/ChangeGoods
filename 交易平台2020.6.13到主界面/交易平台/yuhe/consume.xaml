@@ -25,40 +25,64 @@
                 <Image x:Name="Detail_Image"  HorizontalAlignment="Left" Height="130" Margin="4,-6,0,0" VerticalAlignment="Top" Width="201"/>
 
             </GroupBox>
+
             <GroupBox Header="商品信息" Margin="10" Name="GroupBox_Inf" VerticalAlignment="Center" 
                       Grid.Row="1" Height="245" Background="#FFC1BFBF">
-                <StackPanel x:Name="Data_StackPanel" Orientation="Vertical">
+                <ScrollViewer Margin="0" HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto" Grid.Row="1" >
+                    <StackPanel x:Name="Data_StackPanel" Orientation="Vertical">
+                        <Expander Header="基本信息" IsExpanded="True" Margin="5" Background="#FFDEDBDB">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Content="商品号：" Margin="3"/>
+                                <TextBlock x:Name="ItemID_TextBlock" Text="" Margin="3" Width="120" Grid.Column="1"/>
+                                <Label Content="商品名称：" Margin="3" Grid.Row="1"/>
+                                <TextBlock x:Name="ItemName_TextBox" Text="" Margin="3" Width="120" Grid.Row="1" Grid.Column="1"/>
+                                <Label Content="价格：" Margin="3" Grid.Row="2"/>
+                                <TextBlock x:Name="price_TextBox" Text="" Margin="3" Width="120" Grid.Row="2" Grid.Column="1"/>
+                            </Grid>
+                        </Expander>
+                        <Expander Header="商品描述" IsExpanded="True" Margin="5" Background="#FFDEDBDB">
+                            <TextBox x:Name="ItemDetail_Textbox" Margin="3" Height="80"/>
+                        </Expander>
+                        <Expander Header="卖家信息" IsExpanded="False" Margin="5" Background="#FFDEDBDB" >
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Label Content="昵称：" Margin="3"/>
+                                <TextBlock x:Name="Name_TextBlock" Text="" Margin="3" Width="120" Grid.Column="1"/>
+                                <Label Content="用户等级：" Margin="3" Grid.Row="1"/>
+                                <TextBlock x:Name="Rank_TextBox" Text="" Margin="3" Width="120" Grid.Row="1" Grid.Column="1"/>
+                                <Label Content="信誉等级：" Margin="3" Grid.Row="2"/>
+                                <TextBlock x:Name="Reliane_TextBox" Text="" Margin="3" Width="120" Grid.Row="2" Grid.Column="1"/>
+                                <Label Content="注册时间：" Margin="3" Grid.Row="3"/>
+                                <TextBlock x:Name="Time_TextBox" Text="" Margin="3" Width="120" Grid.Row="3" Grid.Column="1"/>
+                            </Grid>
+                        </Expander>
+                        <Expander Header="类别" IsExpanded="True" Margin="5"  Background="#FFDEDBDB" >
+                            <TextBlock Margin="5" x:Name="Type_TextBlock" />
+                        </Expander>
+                        <Expander Header="新旧程度" IsExpanded="False" Margin="5" Background="#FFDEDBDB">
 
-                    <Expander Header="卖家信息" IsExpanded="True" Margin="5" Background="#FFDEDBDB" >
-                        <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto"/>
-                                <ColumnDefinition Width="Auto"/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="*"/>
-                            </Grid.RowDefinitions>
-                            <Label Content="昵称：" Margin="3"/>
-                            <TextBlock x:Name="Name_TextBlock" Text="" Margin="3" Width="120" Grid.Column="1"/>
-                            <Label Content="用户等级：" Margin="3" Grid.Row="1"/>
-                            <TextBlock x:Name="Rank_TextBox" Text="" Margin="3" Width="120" Grid.Row="1" Grid.Column="1"/>
-                            <Label Content="信誉等级：" Margin="3" Grid.Row="2"/>
-                            <TextBlock x:Name="Reliane_TextBox" Text="" Margin="3" Width="120" Grid.Row="2" Grid.Column="1"/>
-                            <Label Content="注册时间：" Margin="3" Grid.Row="3"/>
-                            <TextBlock x:Name="Time_TextBox" Text="" Margin="3" Width="120" Grid.Row="3" Grid.Column="1"/>
-                        </Grid>
-                    </Expander>
-                    <Expander Header="类别" IsExpanded="True" Margin="5"  Background="#FFDEDBDB" >
+                        </Expander>
 
-                    </Expander>
-                    <Expander Header="新旧程度" IsExpanded="False" Margin="5" Background="#FFDEDBDB">
-
-                    </Expander>
-
-                </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
             </GroupBox>
         </Grid>
         <Canvas x:Name="Canvas_bug" Margin="10" Grid.Column="1" Grid.ColumnSpan="3">
@@ -66,7 +90,7 @@
                 <ImageBrush ImageSource="/yuhe/Img/哥特吹雪.jpg" Stretch="UniformToFill" Opacity="0.18"/>
             </Canvas.Background>
             <ScrollViewer Height="380" Canvas.Left="35" Canvas.Top="30" Width="470" HorizontalAlignment="Center" HorizontalScrollBarVisibility="Auto">
-                <GroupBox x:Name="CType_GroupBox" Header="支付信息：" Height="495" Canvas.Left="85" Canvas.Top="45" Width="450">
+                <GroupBox x:Name="CType_GroupBox" Header="支付信息：" Height="585" Canvas.Left="85" Canvas.Top="45" Width="443">
                     <StackPanel Margin="0">
                         <Grid x:Name="dataContent_Grid" Margin="0" Opacity="100">
                             <Grid.ColumnDefinitions>
@@ -104,6 +128,10 @@
                             <GroupBox Header="付款二维码" Margin="1" Height="300" VerticalAlignment="Center">
                                 <Image x:Name="Pay_Image" Source="/yuhe/Img/少女Loading.png" Margin="20,20,18,0" />
                             </GroupBox>
+                            <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Stretch" >
+                                <TextBlock x:Name="FinalPrice_TextBlock" Margin="5"  Width="300"/>
+                                <Button x:Name="suretoPay_Button" Content="确认购买" HorizontalAlignment="Right" Margin="20,5,5,5"  />
+                            </StackPanel> 
                         </StackPanel>
                     </StackPanel>
                 </GroupBox>
