@@ -17,6 +17,7 @@
                         <GradientStop Color="#FFF7F75D" Offset="1"/>
                     </LinearGradientBrush>
                 </Canvas.Background>
+                
                 <ListBox x:Name="listBox" Height="601" Width="1000" Canvas.Top="49">
                 </ListBox>
                 <Button x:Name="button"  Canvas.Left="845" Width="151" Height="44" FontSize="20" Background="{x:Null}" >
