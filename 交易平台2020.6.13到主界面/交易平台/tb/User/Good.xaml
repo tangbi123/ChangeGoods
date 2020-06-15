@@ -59,7 +59,7 @@
 
                 <Label Name="价格" Content="123￥" Width="150" Height="60" Margin="0,0,79,0"/>
                 <Button Content="加入购物车" Width="100" Height="40" Margin="36,2,93,21" Grid.Column="1" Background="#88F0A116"/>
-                <Button Content="结算" Width="50" Height="40" Margin="154,2,25,21" Grid.Column="1" Background="#88F0A116"/>
+                <Button Content="结算" Width="50" Height="40" Margin="154,2,25,21" Grid.Column="1" Background="#88F0A116" Click="Click_pay" Tag="consume"/>
                 <!--<StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Right">
                 
             </StackPanel>-->
