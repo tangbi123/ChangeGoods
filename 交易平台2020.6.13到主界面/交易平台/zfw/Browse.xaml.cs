@@ -40,7 +40,7 @@ namespace 交易平台.zfw
             {
                 DataRow dr = ds.Tables[0].Rows[i];
                 listBox.Items.Add(new Frame().Content = new Good(dr));
-                listBox.Items.Add(new Separator());
+               // listBox.Items.Add(new Separator());
             }
         }
 

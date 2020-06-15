@@ -68,9 +68,9 @@
                 </Style>
 
             </StackPanel.Resources>
-            <Expander Header="通讯">
+            <Expander Header="商品">
                 <ListBox>
-                    <Button Content="1" Tag="/zfw/Browse.xaml"/>
+                    <Button Content="商品浏览" Tag="/zfw/Browse.xaml"/>
                 </ListBox>
             </Expander>
 
@@ -84,6 +84,7 @@
                 <ListBox>
                     <Button Content="个人信息"  Tag="/tb/User/User.xaml"/>
                     <Button Content="购物车" Tag="/tb/User/ShopCar.xaml"/>
+                    <Button Content="订单记录" Tag="/tb/User/OrderList.xaml"/>
                 </ListBox>
             </Expander>
         </StackPanel>

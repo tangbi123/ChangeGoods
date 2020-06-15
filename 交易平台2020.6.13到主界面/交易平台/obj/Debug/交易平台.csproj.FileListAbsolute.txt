@@ -177,3 +177,11 @@ D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交�
 D:\repository\softwareProject\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\zfw\upload.baml
 E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\GouwuGood.g.cs
 E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\GouwuGood.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\Order1.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\Order1.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\OrderList.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\OrderList.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\OrderDetail.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\OrderDetail.baml
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\UserDetail.g.cs
+E:\Githb repository\ChangeGoods\交易平台2020.6.13到主界面\交易平台\obj\Debug\tb\User\UserDetail.baml

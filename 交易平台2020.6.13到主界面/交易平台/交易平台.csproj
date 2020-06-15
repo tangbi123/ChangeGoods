@@ -64,12 +64,24 @@
     <Compile Include="tb\User\GouwuGood.xaml.cs">
       <DependentUpon>GouwuGood.xaml</DependentUpon>
     </Compile>
+    <Compile Include="tb\User\Order1.xaml.cs">
+      <DependentUpon>Order1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tb\User\OrderDetail.xaml.cs">
+      <DependentUpon>OrderDetail.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tb\User\OrderList.xaml.cs">
+      <DependentUpon>OrderList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="tb\User\ShopCar.xaml.cs">
       <DependentUpon>ShopCar.xaml</DependentUpon>
     </Compile>
     <Compile Include="tb\User\TbSql.cs" />
     <Compile Include="tb\User\User.xaml.cs">
       <DependentUpon>User.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="tb\User\UserDetail.xaml.cs">
+      <DependentUpon>UserDetail.xaml</DependentUpon>
     </Compile>
     <Compile Include="yuhe\consume.xaml.cs">
       <DependentUpon>consume.xaml</DependentUpon>
@@ -109,11 +121,27 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="tb\User\Order1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tb\User\OrderDetail.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tb\User\OrderList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="tb\User\ShopCar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="tb\User\User.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="tb\User\UserDetail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
